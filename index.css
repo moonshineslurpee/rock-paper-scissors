@@ -1,0 +1,11 @@
+img{
+    width: 100px;
+  }
+  
+  .inline{
+    display:inline-block;
+  }
+  
+  button{
+    border-radius: 5px;
+  }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="The game of Rock, Paper, Scissors">
+    <title>Rock, Paper, Scissors</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/ico" href="hand.ico">
+  </head>
+  <body>
+    <main>
+        <h1>Rock, Paper, Scissors!</h1>
+        <p class= "result">Select weapon and click battle to start!</p>
+        <h2>Choose your weapon:</h2>
+        <section class="weap-button-box">
+          <button class="js-hand-rock js-weap">rock</button>
+          <button class="js-hand-paper js-weap">paper</button>
+          <button class="js-hand-scissors js-weap">scissors</button><br>
+        </section>
+        <button class="js-battle">Battle!</button>
+        <div class="row">
+          <div class="col-4 inline">
+            <div class="js-hand-img"></div>
+          </div>
+          <div class="col-4 inline">
+            <div class="js-h3 inline" ></div>
+          </div>
+          <div class="col-4 inline">
+            <div class="js-comp-img js-clear"></div>
+          </div>
+        </div>
+    </main>  
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
